@@ -6,9 +6,14 @@ import Icon from "@expo/vector-icons/MaterialIcons";
 import logo from '$root/assets/Nubank_Logo.png';
 import { Container, Code, Nav, NavItem, NavText, SigOutButton, SigOutButtonText } from "./style";
 
-export default function Menu(){
+export default function Menu({ translateY }){
   return(
-    <Container>
+    <Container style={{
+      opacity: translateY.interpolate({
+        inputRange: [0, 150],
+        outputRange: [0, 1]
+      })
+    }}>
       <Code>
         <QRCode 
           value="https://github.com/solrachix"

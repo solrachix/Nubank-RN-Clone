@@ -1,6 +1,7 @@
+import { Animated } from 'react-native';
 import styled from 'styled-components/native';
 
-export const CardContainer = styled.View`
+export const CardContainer = styled(Animated.View)`
   flex: 1;
   background: #fff;
   border-radius: 4px;
@@ -9,7 +10,7 @@ export const CardContainer = styled.View`
   position: absolute;
   left: 0;
   right: 0;
-  top: 380;
+  top: 0;
 `;
 
 export const CardHeader = styled.View`

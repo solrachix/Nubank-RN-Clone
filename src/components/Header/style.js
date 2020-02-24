@@ -12,8 +12,9 @@ export const Top = styled.View`
 `;
 
 export const Logo = styled.Image`
-
-`;
+  width: 20px;
+  height: 20px;
+  `;
 
 export const Title = styled.Text`
   font-size: 18px;

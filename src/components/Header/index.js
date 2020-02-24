@@ -10,7 +10,7 @@ export default function Header(){
   return(
     <Container>
       <Top>
-        <Logo source={logo}/>
+        <Logo source={logo} />
         <Title>Carlos</Title>
       </Top>
       <Icon name="keyboard-arrow-down" size={20} color="#fff"/>

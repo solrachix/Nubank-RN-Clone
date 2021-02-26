@@ -1,0 +1,9 @@
+{
+  "project_name": "Nubank clone",
+  "type": "mobile",
+  
+  "template_url": "./assets/Template.png",
+  "logo_url": null,
+
+  "mobile": "./"
+}
